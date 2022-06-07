@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vong lặp lồng nhhau</title>
+</head>
+<style>
+    tr, td{
+        border: solid 1px blue;
+    }
+</style>
+<body>
+
+</body>
+</html>
+<script !src="">
+    let a = "<table>"
+    for (i=1; i<10;i++){
+        a += "<tr>"
+        for (j=1;j<10;j++){
+            a+= "<td>"+ i*j +"</td>"
+        }
+        a+= "</tr>"
+    }
+    a+= "</table>"
+    document.write(a)
+</script>
